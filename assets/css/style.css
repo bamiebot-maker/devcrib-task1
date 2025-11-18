@@ -230,3 +230,73 @@ body {
     font-size: 0.9rem;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Header */
+    .nav-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-list {
+        gap: 20px;
+    }
+
+    /* Hero */
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    /* About Section */
+    .about-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .image-placeholder {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* Projects Grid */
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Hero */
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+    }
+
+    /* Sections */
+    .about, .projects, .contact {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    /* Projects Grid */
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Navigation */
+    .nav-list {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
