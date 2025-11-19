@@ -1,142 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bamietech | DevCrib Challenge</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bamietech — DevCrib Portfolio (Task 1)</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <!-- Header Section -->
-    <header class="header">
-        <div class="container">
-            <div class="nav-container">
-                <div class="logo">
-                    <h2>Bamietech</h2>
-                </div>
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Welcome to My Portfolio</h1>
-                <p class="hero-subtitle">I create amazing web experiences with clean code</p>
-                <a href="#projects" class="hero-btn">View My Works</a>
-            </div>
-        </div>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#home" class="brand-link">Bamietech</a>
+      </div>
+
+      <nav class="nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Hi, my name is</p>
+        <h1 class="hero-title">Bamietech<span class="hero-highlight">.</span></h1>
+        <p class="hero-sub">I build clean, maintainable web interfaces and performant front-end experiences.</p>
+        <p>
+          <a class="btn" href="#work">View Projects</a>
+        </p>
+      </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About -->
     <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-image">
-                    <div class="image-placeholder"></div>
-                </div>
-                <div class="about-text">
-                    <h2 class="section-title">About Me</h2>
-                    <p class="about-description">
-                        I'm a passionate developer currently learning web development through the DevCrib Community. 
-                        I enjoy creating clean, functional websites and continuously improving my coding skills. 
-                        This portfolio showcases some of my recent projects and learning journey.
-                    </p>
-                    <p class="about-description">
-                        When I'm not coding, you can find me exploring new technologies, contributing to open source, 
-                        or collaborating with fellow developers in the community.
-                    </p>
-                </div>
-            </div>
+      <div class="container about-inner">
+        <div class="about-text">
+          <h2 class="section-title"><span class="index">01.</span> About Me</h2>
+          <p>
+            I'm a software engineering student and DevCrib Topper. I enjoy building practical web projects,
+            improving my CSS & Git workflows, and learning by doing.
+          </p>
+          <p>
+            This portfolio clone is part of the Pixel Forge challenge — built with HTML, CSS Grid and Flexbox,
+            and deployed using GitHub Pages.
+          </p>
         </div>
+
+        <div class="about-media">
+          <!-- replace with real image: assets/images/profile.jpg -->
+          <div class="photo" aria-hidden="true"></div>
+        </div>
+      </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title center">My Projects</h2>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <div class="project-content">
-                        <h3 class="project-title">Bamieweb</h3>
-                        <p class="project-description">
-                            A responsive website built with HTML and CSS. Features modern design and clean code structure.
-                        </p>
-                    </div>
-                </div>
+    <!-- Experience -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title"><span class="index">02.</span> What I've Done</h2>
 
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <div class="project-content">
-                        <h3 class="project-title">Bamapp</h3>
-                        <p class="project-description">
-                            Web application with interactive elements. Focus on user experience and accessibility.
-                        </p>
-                    </div>
-                </div>
+        <div class="experience-list">
+          <article class="exp-item">
+            <h3 class="exp-title">Founder — Remote Crew</h3>
+            <p class="exp-meta">Nov 2018 – Present</p>
+            <ul>
+              <li>Built a talent platform connecting devs to remote jobs.</li>
+              <li>Worked on product, frontend, and hiring workflows.</li>
+            </ul>
+          </article>
 
-               <!-- <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <div class="project-content">
-                        <h3 class="project-title">Bamresponse</h3>
-                        <p class="project-description">
-                            Mobile-first design implementation. Optimized for performance across all devices.
-                        </p>
-                    </div>
-                </div>
-
-                
-
-                <!-- Project 4-->
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <div class="project-content">
-                        <h3 class="project-title">Bamblog</h3>
-                        <p class="project-description">
-                            Blog platform with content management. Built with focus on SEO and readability.
-                        </p>
-                    </div>
-                </div>
-            </div>
+          <article class="exp-item">
+            <h3 class="exp-title">Backend Developer — Enlightenment.ai</h3>
+            <p class="exp-meta">Apr 2018 – Nov 2018</p>
+            <ul>
+              <li>Implemented Flask services and data pipelines.</li>
+            </ul>
+          </article>
         </div>
+      </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Projects -->
+    <section id="work" class="projects">
+      <div class="container">
+        <h2 class="section-title center"><span class="index">03.</span> Selected Projects</h2>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>Bamieweb</h3>
+              <p>A responsive website built with pure HTML & CSS. Minimal, accessible and fast.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>Bamapp</h3>
+              <p>Small web application focusing on usability and performance.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>Bamresponse</h3>
+              <p>Mobile-first project optimized for speed and clarity.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>Bamiecom</h3>
+              <p>E-commerce layout prototype demonstrating product grids.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>Bamgangan</h3>
+              <p>Client portfolio with subtle visual details.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>Bamblog</h3>
+              <p>Blog layout focused on readability and content structure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
     <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title center">Get In Touch</h2>
-            <div class="contact-content">
-                <p class="contact-description">
-                    Interested in working together? Feel free to reach out for collaborations or just to say hello!
-                </p>
-                <div class="contact-info">
-                    <p>Email: bamietech@gmail.com</p>
-                    <p>Phone: +2349129324801</p>
-                </div>
-            </div>
+      <div class="container contact-inner">
+        <h2 class="section-title"><span class="index">04.</span> Get in Touch</h2>
+        <p class="contact-text">Interested in collaborating? Reach out via email or find me on GitHub.</p>
+
+        <div class="contact-ways">
+          <a class="contact-pill" href="mailto:bamietech@gmail.com">bamietech@gmail.com</a>
+          <span class="contact-pill">+234 912 932 4801</span>
         </div>
+      </div>
     </section>
+  </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p class="footer-text">
-                &copy; 2025 Bamietech. Built for DevCrib Community Challenge Week2.
-            </p>
-        </div>
-    </footer>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© 2025 Bamietech — Built for DevCrib Pixel Forge (Week 2)</small>
+    </div>
+  </footer>
 </body>
-
-
-    </html>
+</html>
